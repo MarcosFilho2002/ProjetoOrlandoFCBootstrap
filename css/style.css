@@ -118,7 +118,15 @@ header .header-black li a{
 header #logotipo{
     position: absolute;
     top: 20px;
+    z-index: 10;
 }
+
+#banner h1.efeito{
+    color:red;
+    font-size:12em;
+    transition:2s;
+}
+
 #menu{
     margin: 30px 0px;
 }
@@ -132,8 +140,20 @@ header #logotipo{
     padding: 10px 25px;
     text-decoration: none;
 }
+
+#menu li.search{
+    width: 182px;
+    transition-timing-function: cubic-bezier(1, -.91, .91, 1);
+    transition-duration: 1s;
+}
+
 #menu li.search ::-webkit-input-placeholder{
     color: white;
+}
+
+#menu li.search.ativo{
+    width: 300px;
+    
 }
 
 .input-search{
@@ -203,6 +223,13 @@ header #logotipo{
     color: #A7A7A7;
     font-size: 18px;
     font-family: 'Open-Sans';
+}
+
+#news .thumbnails .item-inner{
+    padding: 10px;
+}
+#news .thumbnails .item-inner img{
+    width: 100%;
 }
 
 #estatisticas{
