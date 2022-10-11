@@ -1,0 +1,148 @@
+/*Tamanho padrão para tablet*/
+@media only screen and (max-width: 798px){
+    
+    .header-black ul{
+        display: none;
+    }
+
+}
+
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px){
+    
+    .header-black ul, #menu{
+        display: none;
+    }
+
+    .container-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-hamburger, .btn-pesquisar-mob{
+        display: block;
+        color: #FFF;
+        font-size: 20px;
+        position: absolute;
+        top: -4px;
+        border: none;
+    }
+    .btn-hamburger{
+        left: 0;
+        width: 24px;
+    }
+    .btn-pesquisar-mob{
+        right: 0;
+    }
+    #banner{
+        height: 317px;
+        background-size: cover;
+        background-position: 0%;
+        text-align: center;
+    }
+    #banner h1{
+        top: 180px;
+        font-size: 48px;
+        margin: 0 auto;
+    }
+    #banner h1 small{
+        font-size: 22px;
+    }
+
+    #news h2{
+        font-size: 32px;
+    }
+    #news hr{
+        border-width: 4px;
+    }
+    .thumbnails {
+        text-align: center;
+    }
+    #news .thumbnails .item-inner{
+        padding: 12px;
+    }
+    .thumbnails .item-inner img {
+        width: 80%;
+    }
+    #btn-news-prev, #btn-news-next{
+        background: none;
+        border: none;
+        color: #5E2699;
+        font-size: 48px;
+        display: block;
+        position: absolute;
+        top: 130px;
+        z-index: 1000;
+        outline: 0;
+    }
+    #btn-news-prev{
+        left: 0;
+    }
+    #btn-news-next{
+        right: 0;
+    }
+
+    #estatisticas {
+        height: inherit;
+    }
+    #estatisticas p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #call-to-action{
+        margin-top: 69px;
+    }
+    #call-to-action hr{
+        border-width: 4px;
+    }
+    #call-to-action p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #call-to-action h2{
+        font-size: 32px;
+    }
+    #call-to-action .alinha-btn{
+        width: auto;
+    }
+
+    footer{
+        margin-top: 60px;
+    }
+    footer .row-logotipo {
+        display: none;
+    }
+    footer  .col-links {
+        display: none;
+    }
+    footer  .row-cols h4 {
+        display: none;
+    }
+    footer .col-get-in-touch address {
+        display: none;
+    }
+    footer .col-get-in-touch p {
+        display: none;
+    }
+    footer  .col-popular-post{
+        display: none;
+    }
+    footer .copyright-mobile p{
+        font-size: 10px;
+        line-height: 0;
+    }
+    footer .list-socials a{
+        width: 48px;
+        height: 48px;
+        font-size: 16px;
+        border-radius: 50%;
+        margin: 0px 15px;
+    }
+    footer .list-socials svg{
+        font-size: 38px;
+        width: 32px;
+        height: 32px;
+        margin: 7.5px 3px;
+    }
+    
+}

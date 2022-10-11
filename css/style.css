@@ -459,5 +459,8 @@ footer .list-socials svg{
     margin-bottom: 3.5px;
  }
 
-
+ .btn-hamburger, .btn-pesquisar-mob, 
+ #btn-news-prev, #btn-news-next{
+   display: none;
+}
 
